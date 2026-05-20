@@ -42,7 +42,7 @@ const Sustainability = () => {
         {sections.map((section, index) => (
           <div
             key={section.title}
-            className="rounded-[32px] max-w-[1084px] h-[200px] bg-white p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] md:p-8"
+            className="rounded-[32px] max-w-[1084px] h-[200px] bg-white p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] md:p-8 flex items-center md:block"
           >
             <div className="relative grid gap-8 items-center lg:grid-cols-[1.25fr_1fr]">
               <div className="max-w-2xl z-10">
@@ -53,7 +53,7 @@ const Sustainability = () => {
                   {section.description}
                 </p>
               </div>
-              <div className="absolute right-0 -top-[85%] z-20">
+              <div className="hidden md:block absolute right-0 -top-[85%] z-20">
                 <Image
                   src={section.image}
                   alt={section.title}

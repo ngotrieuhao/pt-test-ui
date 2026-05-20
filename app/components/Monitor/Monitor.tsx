@@ -28,7 +28,7 @@ const Monitor = () => {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16 flex justify-center items-center flex-col">
+    <section className="max-w-6xl mx-auto px-6 py-0 md:py-16 flex justify-center items-center flex-col">
       <div className="text-center">
         <p className="text-2xl md:text-4xl font-medium text-slate-900">
           Real-Time Carbon Tracking

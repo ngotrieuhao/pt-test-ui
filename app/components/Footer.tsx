@@ -184,7 +184,7 @@ const Footer = () => {
               width={145}
             />
             <Image
-              src="/images/footer-4.png"
+              src="/images/footer-4.svg"
               alt="award logo 4"
               className="h-20 object-contain select-none"
               height={299}
