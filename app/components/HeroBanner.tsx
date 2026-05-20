@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function HeroBanner() {
   return (
     <section
-      className="py-16"
+      className="md:py-16 py-8"
       style={{
         background:
           "linear-gradient(180deg,#3f89bd 0%, rgba(63,137,189,0.08) 90%, #ffffff 100%)",

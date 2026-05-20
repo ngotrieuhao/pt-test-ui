@@ -23,7 +23,7 @@ const LogisticsOperation = () => {
             <h2 className="text-3xl md:text-4xl font-semibold text-primary leading-tight">
               Logistics Operation
             </h2>
-            <p className="mt-4 text-[18px] max-w-[762px] mx-auto text-slate-600">
+            <p className="mt-4 md:text-[18px] text-base max-w-[762px] mx-auto text-slate-600">
               Take control of your emissions, meet sustainability goals, and
               create measurable impact. GO SMART, GO GREEN, GO-GENIE®.
             </p>

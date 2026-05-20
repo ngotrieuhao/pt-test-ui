@@ -108,7 +108,7 @@ export default function Navbar() {
         </div>
 
         <button
-          className="md:hidden p-2 rounded hover:bg-gray-100"
+          className="md:hidden p-2 rounded"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -122,7 +122,7 @@ export default function Navbar() {
             >
               <path
                 d="M6 6L18 18M6 18L18 6"
-                stroke="#111827"
+                stroke="#fff"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -138,7 +138,7 @@ export default function Navbar() {
             >
               <path
                 d="M4 6H20M4 12H20M4 18H20"
-                stroke="#111827"
+                stroke="#fff"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -151,29 +151,29 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden px-6 pb-6">
           <nav className="flex flex-col gap-3">
-            <Link href="#" className="text-base text-gray-700">
+            <Link href="#" className="text-base text-white">
               Services
             </Link>
-            <Link href="#" className="text-base text-gray-700">
+            <Link href="#" className="text-base text-white">
               Solutions
             </Link>
-            <Link href="#" className="text-base text-gray-700">
+            <Link href="#" className="text-base text-white">
               About
             </Link>
-            <Link href="#" className="text-base text-gray-700">
+            <Link href="#" className="text-base text-white">
               Help & Guides
             </Link>
             <div className="mt-3 flex flex-col gap-2">
               <Link
                 href="#"
                 style={{ backgroundColor: "var(--primary-color)" }}
-                className="px-4 py-2 rounded-full text-white text-sm text-center"
+                className="px-4 py-2 border border-white rounded-xl text-white text-sm text-center"
               >
                 Track Your Parcel
               </Link>
               <Link
                 href="#"
-                className="text-sm border px-4 py-2 rounded text-center"
+                className="text-sm border px-4 py-2 rounded-xl text-center"
               >
                 Sign In
               </Link>

@@ -42,14 +42,14 @@ const Sustainability = () => {
         {sections.map((section, index) => (
           <div
             key={section.title}
-            className="rounded-[32px] max-w-[1084px] h-[200px] bg-white p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] md:p-8 flex items-center md:block"
+            className="rounded-[32px] max-w-[1084px] md:h-[200px] h-[150px] bg-white p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] md:p-8 flex items-center md:block"
           >
             <div className="relative grid gap-8 items-center lg:grid-cols-[1.25fr_1fr]">
               <div className="max-w-2xl z-10">
-                <h3 className="text-3xl font-semibold text-slate-900">
+                <h3 className="text-xl md:text-3xl font-semibold text-slate-900">
                   {section.title}
                 </h3>
-                <p className="mt-3 max-w-[441px] text-xl  leading-7 text-slate-600">
+                <p className="mt-3 max-w-[441px] text-base md:text-xl leading-7 text-slate-600">
                   {section.description}
                 </p>
               </div>
