@@ -79,7 +79,7 @@ const Monitor = () => {
         ))}
       </div>
 
-      <button className="mt-12 flex gap-4 items-center justify-center w-48 h-10 rounded-xl border border-primary bg-white">
+      <button className="cursor-pointer mt-12 flex gap-4 items-center justify-center w-48 h-10 rounded-xl border border-primary bg-white">
         <p className="text-sm font-semibold text-primary">Book A Demo</p>
         <Image
           src="/icons/arrow-right.svg"

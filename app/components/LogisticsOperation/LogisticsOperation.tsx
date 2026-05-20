@@ -29,7 +29,7 @@ const LogisticsOperation = () => {
             </p>
             <button
               type="button"
-              className="mt-10 inline-flex h-10 items-center justify-center rounded-[14px] bg-gradient-to-r from-primary to-primary px-6 text-sm font-semibold text-white transition hover:from-sky-700 hover:to-sky-600"
+              className="cursor-pointer mt-10 inline-flex h-10 items-center justify-center rounded-[14px] bg-gradient-to-r from-primary to-primary px-6 text-sm font-semibold text-white transition hover:from-sky-700 hover:to-sky-600"
               style={{
                 boxShadow:
                   "5px 5px 14px rgba(1,63,114,0.18), inset -6px -6px 14px rgba(0,34,47,0.26)",

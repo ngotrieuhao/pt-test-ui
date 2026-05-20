@@ -89,6 +89,22 @@ export default function Navbar() {
           >
             Sign In
           </Link>
+          <div className="flex gap-2 cursor-pointer">
+            <Image
+              src="/icons/us.svg"
+              alt="us flag"
+              className="object-contain select-none"
+              width={24}
+              height={16}
+            />
+            <Image
+              src="/icons/arrow-down.svg"
+              alt="us flag"
+              className="object-contain select-none"
+              width={10}
+              height={10}
+            />
+          </div>
         </div>
 
         <button
